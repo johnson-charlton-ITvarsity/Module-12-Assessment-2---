@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(106, 106, 106);
+    color: rgb(0, 0, 0);
+}
+
+.img{
+    padding: 70px;
+    padding-left: 70%;
+}
+
+.img-thumbnail.rounded-circle{
+    padding-left: 1.50rem;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.buttonSection{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+tr{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse : collapse;
+    border-width: 7px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    text-align:center;
+    border: 5px solid rgb(0, 0, 0);
+
+    display: block;
+    margin: auto;
+    margin-bottom: 60px ;
+    width: 80%;
+    background-color:#0088ff78;
+}
+
+td{
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 800px;
+    
+}
+
+td h5{
+    width: 20px;
+}
+
+img{
+    padding-top: 10px;
+    padding-bottom: 2%;
+    padding-left: 45%;
+}
+
+form{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.buttonSection2{
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+h3{
+    text-align: center;
+}
+
+
+.body-home{
+    background-image: url('img/bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: unset;
+}
+
+
+
+/*======================== RESPONSE LAYOUT ====================*/
+
+@media only screen and (min-width: 600px) {
+    #food{
+        width: 80%;
+        margin:auto;
+    }
+
+    #aboutmeal{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #food{
+        width: 70%;
+        margin:auto;
+    }
+
+    #aboutmeal{
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #food{
+        width: 50%;
+        margin:auto;
+    }
+
+    #aboutmeal{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .body-home{
+        background-image: url('img/bg.jpg');
+    }
+
+    .body-food{
+        background-image: url('img/bg.jpg');
+    }
+}
